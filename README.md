@@ -1,5 +1,7 @@
 # Qwen-Poster-Studio
 
+<img width="3272" height="3742" alt="screencapture-d23e3fd5d886cec2d2-gradio-live-2026-01-04-17_56_24" src="https://github.com/user-attachments/assets/cd74975f-fd4e-4974-9411-3ecb8a0023ff" />
+
 ## Qwen Poster Studio (VL → Brief → Qwen-Image Poster)
 
 A lightweight **Gradio** app that turns **rough poster drafts + product inputs** into a **high-converting e-commerce poster** using a two-stage pipeline:
@@ -78,6 +80,10 @@ Output returns to Gradio as the final poster image.
 - CUDA GPU runtime
 - Libraries: `diffusers`, `transformers`, `accelerate`, `bitsandbytes`, `gradio`, `qwen-vl-utils`, `pillow`, `psutil`
 
+### Set up
+I recommend the following set up for Image Generation:
+- Steps = 30 to 40 steps
+- true_cfg_scale = 4 to 5
 ---
 
 ## Installation (Colab)
